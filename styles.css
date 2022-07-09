@@ -1,0 +1,124 @@
+/* body{
+    /* background-color: #ba7047; */ 
+.completeGround{
+    background-color: green;
+    height: 600px;
+    width: 1300px;
+    position: relative;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+
+    /* margin:90px 40px 50px 60px; */
+    
+}
+.mainLine{
+    height: 590px;
+    width: 1290px;
+    border: 4px solid white;
+    position: absolute;
+}
+.halfLine{
+    height: 590px ;
+    position: absolute;
+    width: 645px;
+    border-right: 4px solid white;
+
+}
+.centreSpot{
+    height: 130px;
+    width: 150px;
+    margin-left: 570px;
+    margin-top: 230px;
+    background-color: green;
+    border-radius: 50%;
+    border:3px solid white;
+    position: absolute;
+}
+.centreCircleLine{
+    height: 130px;
+    width: 645px;
+    border-left: 4px solid white;
+    position: absolute;
+    margin-left: 72px;
+
+}
+.leftPenaltyArea{
+    height: 140px;
+    width: 60px;
+    border: 3px solid white;
+    border-left: 0;
+    margin-top: 230px;    
+}
+.rightPenaltyArea{
+    height: 140px;
+    width: 60px;
+    border: 3px solid white;
+    border-right: 0;
+    right:0;
+    margin-top: -140px;
+    position:absolute;  
+}
+
+.leftGoalArea{
+    height: 280px;
+    width: 140px;
+    border: 3px solid white;
+    border-left: 0;
+    margin-top: -215px;
+    position: absolute;
+}
+
+.rightGoalArea{
+    height: 280px;
+    width: 140px;
+    border: 3px solid white;
+    border-right: 0;
+    margin-top: -215px;
+    position: absolute;
+    right:0;
+}
+.rightGoalPost{
+    height: 70px;
+    width:30px;
+    border: 3px solid white;
+    border-left: 0;
+    right: 10px;
+    margin-top: 270px;
+    position: absolute;
+}
+.leftGoalPost{
+    height: 70px;
+    width:30px;
+    border: 3px solid white;
+    border-right: 0;
+    left:10px;
+    margin-top: 270px;
+    position: absolute;
+}
+.leftSemicircle{
+    height:140px;
+    width:70px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border:3px solid white;
+    position:absolute;
+    border-left:0;
+    margin-left: 140px;
+    margin-top: -140px;
+   
+}
+.rightSemicircle{
+    height:140px;
+    width:70px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border:3px solid white;
+    position:absolute;
+    border-right:0;
+    right:0;
+    margin-left: 140px;
+    margin-top: -140px;
+    margin-right: 140px;
+   
+}
